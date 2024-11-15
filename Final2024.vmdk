@@ -1,0 +1,27 @@
+# Disk DescriptorFile
+version=1
+encoding="windows-1252"
+CID=3d67bf13
+parentCID=ffffffff
+createType="twoGbMaxExtentSparse"
+
+# Extent description
+RW 8323072 SPARSE "Final2024-s001.vmdk"
+RW 8323072 SPARSE "Final2024-s002.vmdk"
+RW 8323072 SPARSE "Final2024-s003.vmdk"
+RW 8323072 SPARSE "Final2024-s004.vmdk"
+RW 8323072 SPARSE "Final2024-s005.vmdk"
+RW 327680 SPARSE "Final2024-s006.vmdk"
+
+# The Disk Data Base 
+#DDB
+
+ddb.adapterType = "lsilogic"
+ddb.geometry.cylinders = "2610"
+ddb.geometry.heads = "255"
+ddb.geometry.sectors = "63"
+ddb.longContentID = "95e9c3135b0be3f52408293e3d67bf13"
+ddb.toolsInstallType = "4"
+ddb.toolsVersion = "12416"
+ddb.uuid = "60 00 C2 90 74 87 e1 17-13 35 4d 8b 59 c7 92 23"
+ddb.virtualHWVersion = "21"
